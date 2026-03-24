@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main{
+    background-color: rgb(237, 237, 252);
+    max-width: 700px;
+    height: 500px;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+}
+.container{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+.heading{
+    font-weight: 500;
+    color: rgb(139, 139, 139);
+    padding: 10px;
+    border-top: 4px solid blue;
+    border-bottom: 2px solid rgb(245, 238, 238);
+}
+.form{
+    width: 97%;
+    margin: 10px;
+}
+.form, label{
+    font-weight: bold;
+}
+
+.form input[type="email"], input[type="password"]{
+    padding-top: 16px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 16px;
+    width: 100%;
+    border: 2px solid rgb(237, 237, 252);
+    margin: 16px 0 ;
+}
+.form input[type="checkbox"]{
+    margin: 16px 0;
+}
+.submit-button{
+    color: white;
+    background-color: rgb(105, 192, 88);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 50px 0;
+}
+.form p{
+    display: inline;
+    font-weight: lighter;
+}
+.form button{
+    border: 1px solid rgb(187, 186, 186);
+    padding: 8px;
+    font-weight: bold;
+    margin-top: 16px;
+}
+.help-text{
+    font-weight: lighter;
+}
+.form input[type="checkbox"] + label {
+    font-weight: normal;
+}
+
+/*styling second form*/
+
+.main2{
+    background-color: rgb(237, 237, 252);
+    max-width: 1000px;
+    height: 400px;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    display: flex;
+}
+.container-2{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    margin-top: 12px 0;
+}
+.heading2{
+    font-weight: 500;
+    color: rgb(139, 139, 139);
+    padding: 10px;
+    border-top: 4px solid rgb(0, 204, 255);
+    border-bottom: 2px solid rgb(245, 238, 238);
+    
+}
+.form2 input{
+    max-width: 100%;
+    margin: 16px 0;
+}
+.form2{
+    margin: 10px;
+}
+.form2 input[type="email"], input[type="text"]{
+    width: 700px;
+    padding: 16px;
+    border: 2px solid rgb(237, 237, 252);
+    margin: 20px;
+    margin-bottom: 15px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.cancel{
+    padding: 1rem;
+    width: 80px;
+    border: 1px solid rgb(223, 220, 220);
+    margin-top: 25px;
+}
+.sign-in{
+    background-color: rgb(83, 206, 200);
+    padding: 15px;
+    width: 6rem;
+    border: 0;
+    border-radius: 6px;
+    color: white;
+    margin-top: 25px;
+}
+.form2 input[type="checkbox"] + label{
+    font-weight: normal;
+}
+.form2 input[type="checkbox"]{
+    margin-left: 144px;
+}
+.form2 label {
+    display: inline-block;
+    width: 120px;
+    margin-bottom: 15px;
+}
+.line-below{
+    border: 0.5px solid rgb(247, 244, 244);
+}
+
+
+
